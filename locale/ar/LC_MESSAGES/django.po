@@ -2175,3 +2175,7 @@ msgstr "أي شيء آخر"
 #: templates/core/website_request.html:342
 msgid "Send my project brief"
 msgstr "إرسال موجز مشروعي"
+
+#: banan_config/settings.py
+msgid "Office 17, Floor 1, Building 57, Street 250, Zone 45, Doha, Qatar"
+msgstr "مكتب رقم 17، الطابق الأول، مبنى رقم 57، شارع رقم 250، منطقة رقم 45، الدوحة، قطر"

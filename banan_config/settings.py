@@ -5,6 +5,8 @@ Django settings for banan_config project (Banan Information Technology website).
 import json
 from pathlib import Path
 
+from django.utils.translation import gettext_lazy as _
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 with open(BASE_DIR / 'secrets.json') as secrets_file:
@@ -136,7 +138,7 @@ COMPANY_CR_NUMBER = '247136'
 COMPANY_PHONE = '+974 3393 3700'
 COMPANY_PHONE_TEL = '+97433933700'
 COMPANY_EMAIL = 'info@banantechnology.com'
-COMPANY_ADDRESS = 'Doha, Qatar'
+COMPANY_ADDRESS = _('Office 17, Floor 1, Building 57, Street 250, Zone 45, Doha, Qatar')
 
 # Toggle to show/hide the "Work" (portfolio) nav link once case studies are ready.
 # The /portfolio/ page and URLs stay live either way — this only hides the nav entry.
