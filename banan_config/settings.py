@@ -132,7 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Site info used across templates (also see core/context_processors.py)
-COMPANY_NAME = 'Banan Information Technology'
+COMPANY_NAME = 'Banan for Information Technology'
 COMPANY_NAME_AR = 'بنان لتقنية المعلومات'
 COMPANY_CR_NUMBER = '247136'
 COMPANY_PHONE = '+974 3393 3700'
